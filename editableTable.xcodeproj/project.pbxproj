@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		BEC2D8A21A88F47A00103A56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC2D8A11A88F47A00103A56 /* main.m */; };
 		BEC2D8A51A88F47A00103A56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC2D8A41A88F47A00103A56 /* AppDelegate.m */; };
-		BEC2D8A81A88F47A00103A56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC2D8A71A88F47A00103A56 /* ViewController.m */; };
 		BEC2D8AB1A88F47A00103A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC2D8A91A88F47A00103A56 /* Main.storyboard */; };
 		BEC2D8AD1A88F47A00103A56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC2D8AC1A88F47A00103A56 /* Images.xcassets */; };
 		BEC2D8B01A88F47A00103A56 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEC2D8AE1A88F47A00103A56 /* LaunchScreen.xib */; };
 		BEC2D8BC1A88F47A00103A56 /* editableTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC2D8BB1A88F47A00103A56 /* editableTableTests.m */; };
+		BEC2D8C71A88F4D300103A56 /* EditableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC2D8C61A88F4D300103A56 /* EditableTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		BEC2D8A11A88F47A00103A56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BEC2D8A31A88F47A00103A56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEC2D8A41A88F47A00103A56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BEC2D8A61A88F47A00103A56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BEC2D8A71A88F47A00103A56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BEC2D8AA1A88F47A00103A56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEC2D8AC1A88F47A00103A56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BEC2D8AF1A88F47A00103A56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BEC2D8B51A88F47A00103A56 /* editableTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = editableTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC2D8BA1A88F47A00103A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEC2D8BB1A88F47A00103A56 /* editableTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = editableTableTests.m; sourceTree = "<group>"; };
+		BEC2D8C51A88F4D300103A56 /* EditableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditableTableViewController.h; sourceTree = "<group>"; };
+		BEC2D8C61A88F4D300103A56 /* EditableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditableTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 			children = (
 				BEC2D8A31A88F47A00103A56 /* AppDelegate.h */,
 				BEC2D8A41A88F47A00103A56 /* AppDelegate.m */,
-				BEC2D8A61A88F47A00103A56 /* ViewController.h */,
-				BEC2D8A71A88F47A00103A56 /* ViewController.m */,
 				BEC2D8A91A88F47A00103A56 /* Main.storyboard */,
+				BEC2D8C51A88F4D300103A56 /* EditableTableViewController.h */,
+				BEC2D8C61A88F4D300103A56 /* EditableTableViewController.m */,
 				BEC2D8AC1A88F47A00103A56 /* Images.xcassets */,
 				BEC2D8AE1A88F47A00103A56 /* LaunchScreen.xib */,
 				BEC2D89F1A88F47A00103A56 /* Supporting Files */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC2D8A81A88F47A00103A56 /* ViewController.m in Sources */,
+				BEC2D8C71A88F4D300103A56 /* EditableTableViewController.m in Sources */,
 				BEC2D8A51A88F47A00103A56 /* AppDelegate.m in Sources */,
 				BEC2D8A21A88F47A00103A56 /* main.m in Sources */,
 			);
